@@ -271,7 +271,7 @@ nav {
 
 .position-div {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 35%;
   display: flex;
   justify-content: space-between;
@@ -289,11 +289,15 @@ nav {
   background-color: #fff;
 }
 
-.position-div i {
-  font-size: 40px;
+.contrast-logo {
   background-color: #fff;
   border-radius: 10px;
   transform: rotate(-15deg);
+}
+
+.position-div i {
+  font-size: 40px;
+  transform: scaleX(-1);
 }
 
 .contrast-button {
