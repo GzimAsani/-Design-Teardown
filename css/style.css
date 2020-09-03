@@ -319,3 +319,149 @@ nav {
   margin-left: 10%;
   padding-top: 60px;
 }
+
+.second-article-container{
+  width: 100%;
+  padding-top: 30px;
+  background-color: rgb(211, 208, 208)
+}
+
+.third-article-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 30px;
+  background-color:  rgb(233, 231, 231);
+  color: white;
+}
+
+.article-flex1 {
+  flex: 1;
+  height: 90vh;
+}
+
+.article-flex1-items{
+  width: 90%;
+  margin: 10px auto; 
+}
+
+.article-flex1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+.article-flex1 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.paragraph-item {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.span {
+  font-size: 16px;
+}
+.article-flex2-item2 img {
+  width: 250px;
+  height: 290px;
+  margin: 10px 0 40px 0;
+}
+
+.third-article-container article {
+  width: 30%;
+}
+
+.article-flex2-item1 {
+  margin-left: 2.5%;
+  height: 50vh;
+  border-radius: 10px;
+  text-align: center;
+  background-color:  rgb(173, 172, 172);
+}
+
+.article-flex2-item2 {
+  margin-left: 2.5%;
+  height: 90vh;
+  border-radius: 10px;
+  text-align: center;
+  background-color:  rgb(83, 82, 82);
+}
+
+.article-flex2-item3 {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  height: 90vh;
+  background-color:  rgb(189, 186, 186);
+}
+
+.article-flex2-item1 img {
+  margin-top: 15px;
+}
+
+.third-container-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex2-item1-paragraph {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 15px 0 15px 0;
+}
+
+.flex2-item1-paragraph2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+.third-article-buttons {
+  height: 40px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.flex2-item2-h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.flex2-item2-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  width: 50%;
+  margin: 0 auto 12px auto;
+}
+
+.flex2-item3-span {
+  display: block;
+  font-size: 14px;
+  margin: 30px 0 20px 0;
+}
+
+.flex2-item3-h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.flex2-item3-p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.fa-long-arrow-right {
+  color: rgb(128, 125, 125)
+  margin-top: 20px;
+}
