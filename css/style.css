@@ -2,9 +2,11 @@
 
 /* base */
 
-/* layout */
+/* header */
 
-/* template */
+/* main */
+
+/* footer */
 
 /* state */
 
@@ -127,10 +129,10 @@ body {
   background-color: #F5F5F5;
 }
 
-ol,
+/* ol,
 ul {
   list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -162,7 +164,7 @@ a {
   color: inherit;
 }
 
-/* layout */
+/* header */
 
 header {
   background-color: #454545;
@@ -211,6 +213,8 @@ nav {
   height: 50px;
   border-radius: 10px;
 }
+
+/* main */
 
 .dflex {
   display: flex;
@@ -520,6 +524,21 @@ nav {
   background-color: rgb(185, 184, 184);
 }
 
+.article-class-six h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.article-class-six h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-class-six p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .article-class-six article {
   margin: 20px 20px;
 }
@@ -527,21 +546,31 @@ nav {
 .article-class-six img {
   transform: rotate(-15deg);
   border-radius: 10px;
+  margin-right: 20px;
 }
 
 .first-article-class-six {
   padding-top: 30px;
 }
 
+.first-article-class-six-div {
+  margin-top: auto;
+}
+
 .article-six-img-lrg {
   height: 150px;
   width: 150px;
-  margin-right: 20px;
+
+}
+
+.article-class-six-cards {
+  width: 50%
 }
 
 .article-six-img-sml {
   height: 70px;
   width: 60px;
+  margin: auto 0;
 }
 
 .dflex-justify {
@@ -594,6 +623,14 @@ nav {
   padding: 4%;
 }
 
+.article-class-eight img {
+  display: block;
+  height: 250px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 .article-class-eight article {
   margin: 10px 10px 10px 10px;
   padding: 20px;
@@ -606,10 +643,48 @@ nav {
 }
 
 .article-eight-buttons {
-  margin-top: 20px;;
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.last-article-eight-items-btn {
+  margin: 20px 0;
 }
 
 .last-button {
-  width: 40px;
-  height: 40px;
+  width: 20%;
+  height: 52px;
+  border-radius: 0 10px 10px 0;
+  margin-left: -10px;
+  border: none;
+}
+
+.article-eight-last-item-input {
+  width: 70%;
+  height: 52px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(161, 160, 160);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+footer li {
+  padding-right: 30px;
+  font-size: 20px;
 }
