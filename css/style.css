@@ -124,6 +124,7 @@ body {
   line-height: 1;
   background-color: #fff;
   font-family: "Nunito Sans", sans-serif;
+  background-color: #F5F5F5;
 }
 
 ol,
@@ -318,6 +319,8 @@ nav {
 .fa-long-arrow-right {
   margin-left: 10%;
   padding-top: 60px;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .second-article-container{
@@ -371,7 +374,7 @@ nav {
 .article-flex2-item2 img {
   width: 250px;
   height: 290px;
-  margin: 10px 0 40px 0;
+  margin: 10px 0 20px 0;
 }
 
 .third-article-container article {
@@ -422,9 +425,8 @@ nav {
   margin: 0 0 15px 0;
 }
 
-.third-article-buttons {
+.article-buttons {
   height: 40px;
-  width: 130px;
   background-color: black;
   color: white;
   border-radius: 10px;
@@ -433,7 +435,7 @@ nav {
 .flex2-item2-h1 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .flex2-item2-paragraph {
@@ -461,7 +463,92 @@ nav {
   margin-bottom: 20px;
 }
 
-.fa-long-arrow-right {
-  color: rgb(128, 125, 125)
-  margin-top: 20px;
+.margin-top {
+  margin-top: 30px;
+}
+
+.article-class-four {
+  text-align: center;
+  height: 95vh;
+  width: 95%;
+  margin: 30px auto 30px;
+  background-color: rgb(128,128,128);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.article-class-four img {
+  width: 250px;
+  height: 290px;
+  margin: 30px 0 20px 0;
+}
+
+.article-class-five {
+  text-align: center;
+  height: 595.5px;
+  width: 95%;
+  margin: 30px auto 30px;
+  background-color: rgb(185, 184, 184);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.article-class-five p {
+  width: 60%;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.article-class-five p:nth-child(1) {
+  font-size: 40px;
+}
+
+.article-class-five img {
+  width: 150px;
+  height: 200px;
+  margin: 30px 0 20px 0;
+}
+
+.five-btn {
+  height: 50px;
+  font-size: 30px;
+}
+
+.article-class-six {
+  width: 98%;
+  color: #fff;
+  background-color: rgb(185, 184, 184);
+}
+
+.article-class-six article {
+  margin: 20px 20px;
+}
+
+.article-class-six img {
+  transform: rotate(-15deg);
+  border-radius: 10px;
+}
+
+.first-article-class-six {
+  padding-top: 30px;
+}
+
+.article-six-img-lrg {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.article-six-img-sml {
+  height: 70px;
+  width: 60px;
+}
+
+.dflex-justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
 }
