@@ -158,14 +158,69 @@ a {
   color: inherit;
 }
 
-.width-100 {
-  width: 100%;
+img {
+  border-radius: 9px;
 }
 
 footer img {
   width: 100px;
   height: 130px;
+}
+
+/** Generics **/
+
+.width-100 {
+  width: 100%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.fnt-40 {
+  font-size: 40px;
+}
+
+.fnt-20 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.center-items {
+  margin: 0 auto;
+}
+
+.img-bent {
+  transform: rotate(-15deg);
+}
+
+.curved-edges {
   border-radius: 10px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.dflex {
+  display: flex;
+}
+
+.flex-top {
+  align-items: flex-start;
+}
+
+.dflex-justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* header */
@@ -177,15 +232,11 @@ header {
 }
 
 nav {
-  width: 95%;
-  margin: 0 auto;
   padding: 16px 0;
   justify-content: space-between;
 }
 
 .nav-item {
-  border-radius: 10px;
-  text-align: center;
   padding-top: 20px;
   margin: 0 10px;
   width: 102px;
@@ -206,6 +257,7 @@ nav {
   display: block;
   height: 72px;
   width: 197px;
+  border-radius: 0;
 }
 
 .nav-search {
@@ -214,18 +266,9 @@ nav {
 
 .nav-search input {
   height: 50px;
-  border-radius: 10px;
 }
 
 /* main */
-
-.dflex {
-  display: flex;
-}
-
-.flex-top {
-  align-items: flex-start;
-}
 
 .article-grid {
   position: relative;
@@ -235,7 +278,6 @@ nav {
   height: 94vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: #fff;
 }
 
 .article-container {
@@ -252,15 +294,12 @@ nav {
 .article-container p {
   width: 80%;
   margin: 20px auto;
-  font-size: 40px;
 }
 
 .article-one img {
   width: 86px;
   height: 96px;
   margin-left: 10%;
-  transform: rotate(-15deg);
-  border-radius: 10px;
 }
 
 .one {
@@ -281,9 +320,6 @@ nav {
 
 .position-div p {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  text-align: center;
-  font-weight: bold;
 }
 
 .position-div p span {
@@ -292,12 +328,9 @@ nav {
 
 .contrast-logo {
   background-color: #fff;
-  border-radius: 10px;
-  transform: rotate(-15deg);
 }
 
 .position-div i {
-  font-size: 40px;
   transform: scaleX(-1);
 }
 
@@ -327,7 +360,6 @@ nav {
 }
 
 .third-article-container {
-  margin: 0 auto;
   padding-top: 30px;
   background-color: rgb(233, 231, 231);
   color: white;
@@ -344,23 +376,16 @@ nav {
 }
 
 .article-flex1 h1 {
-  font-size: 40px;
   font-weight: 700;
   line-height: 60px;
-  margin-top: 20px;
 }
 
 .article-flex1 h2 {
-  font-size: 20px;
   font-weight: 600;
-  margin-top: 20px;
 }
 
 .paragraph-item {
-  font-size: 20px;
-  font-weight: 400;
   line-height: 30px;
-  margin-top: 20px;
 }
 
 .span {
@@ -380,16 +405,12 @@ nav {
 .article-flex2-item1 {
   margin-left: 2.5%;
   height: 50vh;
-  border-radius: 10px;
-  text-align: center;
   background-color: rgb(173, 172, 172);
 }
 
 .article-flex2-item2 {
   margin-left: 2.5%;
   height: 90vh;
-  border-radius: 10px;
-  text-align: center;
   background-color: rgb(83, 82, 82);
 }
 
@@ -406,18 +427,15 @@ nav {
 
 .third-container-div {
   width: 80%;
-  margin: 0 auto;
 }
 
 .flex2-item1-paragraph {
   font-size: 19px;
-  font-weight: bold;
   margin: 15px 0 15px 0;
 }
 
 .flex2-item1-paragraph2 {
   font-size: 15px;
-  font-weight: bold;
   margin: 0 0 15px 0;
 }
 
@@ -425,18 +443,14 @@ nav {
   height: 40px;
   background-color: black;
   color: white;
-  border-radius: 10px;
 }
 
 .flex2-item2-h1 {
-  font-size: 40px;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
 .flex2-item2-paragraph {
-  font-size: 18px;
-  font-weight: 400;
   width: 50%;
   margin: 0 auto 12px auto;
 }
@@ -448,29 +462,22 @@ nav {
 }
 
 .flex2-item3-h1 {
-  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .flex2-item3-p {
-  font-size: 20px;
-  font-weight: 400;
   margin-bottom: 20px;
 }
 
-.margin-top {
-  margin-top: 30px;
+.margin-top-20 {
+  margin-top: 20px;
 }
 
 .article-class-four {
-  text-align: center;
   height: 95vh;
-  width: 95%;
   margin: 30px auto 30px;
   background-color: rgb(128, 128, 128);
-  border-radius: 10px;
-  color: #fff;
 }
 
 .article-class-four img {
@@ -480,28 +487,19 @@ nav {
 }
 
 .article-class-five {
-  text-align: center;
   height: 595.5px;
-  width: 95%;
   margin: 30px auto 30px;
   background-color: rgb(185, 184, 184);
-  border-radius: 10px;
-  color: #fff;
 }
 
 .article-class-five p {
   width: 60%;
   padding: 30px 0;
-  margin: 0 auto;
 }
 
 .article-class-six p {
   font-size: 18px;
   margin-bottom: 10px;
-}
-
-.article-class-five p:nth-child(1) {
-  font-size: 40px;
 }
 
 .article-class-five img {
@@ -517,7 +515,6 @@ nav {
 
 .article-class-six {
   width: 98%;
-  color: #fff;
   background-color: rgb(185, 184, 184);
 }
 
@@ -536,8 +533,6 @@ nav {
 }
 
 .article-class-six img {
-  transform: rotate(-15deg);
-  border-radius: 10px;
   margin-right: 20px;
 }
 
@@ -564,13 +559,7 @@ nav {
   margin: auto 0;
 }
 
-.dflex-justify {
-  display: flex;
-  justify-content: space-between;
-}
-
 .article-class-seven {
-  width: 98%;
   height: 400px;
   background-color: rgb(235, 233, 233);
 }
@@ -579,14 +568,10 @@ nav {
   width: 70%;
   height: 50px;
   margin: 0 0 0 200px;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 .article-seven-img-lrg {
   margin-right: 100px;
-  transform: rotate(-15deg);
-  border-radius: 10px;
   margin-top: 45px;
 }
 
@@ -599,10 +584,6 @@ nav {
   margin-top: 55px;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .article-class-eight {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -613,30 +594,17 @@ nav {
   display: block;
   height: 250px;
   width: 50%;
-  margin: 0 auto;
-  border-radius: 10px;
 }
 
 .article-class-eight article {
   margin: 10px 10px 10px 10px;
   padding: 20px;
-  border-radius: 10px;
   background-color: rgb(128, 126, 126);
 }
 
-.article-eight-items {
-  margin-top: 20px;
-}
-
 .article-eight-buttons {
-  margin-top: 20px;
   height: 35px;
-  border-radius: 10px;
   border: none;
-}
-
-.text-align {
-  text-align: center;
 }
 
 .last-article-eight-items-btn {
@@ -671,17 +639,15 @@ footer ul {
 
 footer li {
   padding-right: 30px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .ftr-flex-div {
-  width: 95%;
   margin: 30px auto 0;
 }
 
 .footer-paragraph {
-  margin-top: 20px;
-  font-weight: 400;
+  margin-top: 18px;
 }
 
 .footer-paragraph:first-of-type {
