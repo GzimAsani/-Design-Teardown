@@ -322,8 +322,7 @@ nav {
 
 .fa-long-arrow-right {
   margin-left: 10%;
-  padding-top: 60px;
-  margin-top: 20px;
+  margin-top: 80px;
   color: #fff;
 }
 
@@ -584,6 +583,7 @@ nav {
 
 .article-class-seven {
   width: 98%;
+  height: 400px;
   background-color: rgb(235, 233, 233);
 }
 
@@ -687,4 +687,51 @@ footer ul {
 footer li {
   padding-right: 30px;
   font-size: 20px;
+}
+
+footer img {
+  width: 100px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.ftr-flex-div {
+  width: 95%;
+  margin: 30px auto 0;
+}
+
+.footer-paragraph {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.footer-paragraph:first-of-type {
+  font-style: italic;
+}
+
+/** state **/
+
+.nav-item:hover {
+  background-color: rgb(128,128,128);
+}
+
+.contrast-logo:hover {
+  transform: rotate(0);
+}
+
+.contrast-logo:hover i {
+  transform: scaleX(1);
+}
+
+.fa-long-arrow-right:hover {
+  background-color: rgb(92, 91, 91);
+}
+
+.article-flex1:hover {
+  background-color: rgb(92, 91, 91);
+  color: #fff;
+}
+
+.img-bent:hover {
+  transform: rotate(0);
 }
