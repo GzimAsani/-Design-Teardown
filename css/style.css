@@ -552,3 +552,64 @@ nav {
 .flex {
   display: flex;
 }
+
+.article-class-seven {
+  width: 98%;
+  background-color: rgb(235, 233, 233);
+}
+
+
+
+.article-seven-items {
+  width: 70%;
+  height: 50px;
+  margin: 0 0 0 200px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.article-seven-img-lrg {
+  margin-right: 100px;
+  transform: rotate(-15deg);
+  border-radius: 10px;
+  margin-top: 45px;
+}
+
+.button {
+  margin-top: 70px;
+  width: 50%;
+}
+
+.margin-top-article {
+  margin-top: 55px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.article-class-eight {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4%;
+}
+
+.article-class-eight article {
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(128, 126, 126);
+}
+
+.article-eight-items {
+  margin-top: 20px;
+}
+
+.article-eight-buttons {
+  margin-top: 20px;;
+}
+
+.last-button {
+  width: 40px;
+  height: 40px;
+}
