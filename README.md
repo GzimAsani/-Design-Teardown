@@ -26,7 +26,7 @@ Prerequisites for getting a local copy are Git, Github profile and Text editor
 
 #### Ceejayski
 * Github:[@Ceejayski](https://github.com/GzimAsani )
-* LinkedIn:[Gzim Asani](https://www.linkedin.com/in/okolichijioke/)
+* LinkedIn:[Ceejay Okoli](https://www.linkedin.com/in/okolichijioke/)
 
 ## Contributing
 ---
