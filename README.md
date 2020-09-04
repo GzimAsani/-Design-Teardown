@@ -5,7 +5,7 @@ Smashing-Magazine heatmap clone: Project 5 of 40. Microverse.
 
 This project consists of building a heatmap of the Smashing magazine website. The aim of this project was to examine the design pattern of the website using html,css and css positioning technologies.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./Images/screenshot.JPG)
 
 ## Project Requirements
 
