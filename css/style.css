@@ -128,11 +128,6 @@ body {
   background-color: #f5f5f5;
 }
 
-/* ol,
-ul {
-  list-style: none;
-} */
-
 blockquote,
 q {
   quotes: none;
@@ -161,6 +156,10 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 footer img {
@@ -214,7 +213,6 @@ nav {
 }
 
 .nav-search input {
-  width: 100%;
   height: 50px;
   border-radius: 10px;
 }
@@ -223,7 +221,6 @@ nav {
 
 .dflex {
   display: flex;
-  align-items: center;
 }
 
 .flex-top {
@@ -243,12 +240,7 @@ nav {
 
 .article-container {
   height: 70%;
-  width: 100%;
   margin-top: 20%;
-}
-
-.article-writer {
-  display: flex;
 }
 
 .article-writer h1 span {
@@ -283,7 +275,6 @@ nav {
   position: absolute;
   top: 7%;
   left: 35%;
-  display: flex;
   justify-content: space-between;
   width: 60%;
 }
@@ -312,7 +303,6 @@ nav {
 
 .contrast-button {
   width: 25%;
-  display: flex;
   height: 40px;
 }
 
@@ -332,15 +322,12 @@ nav {
 }
 
 .second-article-container {
-  width: 100%;
   padding-top: 30px;
   background-color: rgb(211, 208, 208);
 }
 
 .third-article-container {
-  width: 100%;
   margin: 0 auto;
-  display: flex;
   padding-top: 30px;
   background-color: rgb(233, 231, 231);
   color: white;
@@ -582,10 +569,6 @@ nav {
   justify-content: space-between;
 }
 
-.flex {
-  display: flex;
-}
-
 .article-class-seven {
   width: 98%;
   height: 400px;
@@ -682,7 +665,6 @@ footer {
 }
 
 footer ul {
-  display: flex;
   justify-content: center;
   padding-top: 25px;
 }
