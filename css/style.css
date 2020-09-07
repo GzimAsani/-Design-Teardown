@@ -196,6 +196,7 @@ footer img {
 
 .img-bent {
   transform: rotate(-15deg);
+  transition: 0.3s;
 }
 
 .curved-edges {
@@ -332,6 +333,7 @@ nav {
 
 .position-div i {
   transform: scaleX(-1);
+  transition: 0.3s;
 }
 
 .contrast-button {
@@ -674,9 +676,12 @@ footer li {
 
 .article-flex1:hover {
   background-color: rgb(92, 91, 91);
+  transform: scale(1.1, 1.1);
+  z-index: 2;
   color: #fff;
 }
 
 .img-bent:hover {
   transform: rotate(0);
+  transition: 0.3s;
 }
